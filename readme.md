@@ -22,6 +22,20 @@ Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
 
+<<<<<<< HEAD
+=======
+## Valgrid via command-line
+```
+git clone --recursive https://github.com/dpiet/cpp-boilerplate
+cd <path to repository>
+mkdir build
+cd build
+cmake ..
+make
+valgrind ./app/shell-app
+```
+
+>>>>>>> c73d6b794f1bd2b731ea38f46a23ec2e57fa8c1f
 ## Building for code coverage (for assignments beginning in Week 4)
 ```
 sudo apt-get install lcov
